@@ -9,12 +9,6 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "vercel": {
-    "build": {
-      "src": "client/build",
-      "use": "@vercel/static-build"
-    }
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
